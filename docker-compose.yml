@@ -1,0 +1,9 @@
+services:
+  bookify.api:
+    image: ${DOCKER_REGISTRY-}bookifyapi
+    build:
+      context: .
+      dockerfile: Bookify.Api/Dockerfile
+
+  bookify-db:
+    image: postgres

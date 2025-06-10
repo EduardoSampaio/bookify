@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{95037B9C-1EAA-44C3-87F3-FEA216B82CD5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{747139CB-48C6-40AA-88CE-4FC47A7D2CB9}"
@@ -10,15 +13,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Application", "Book
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Infrastructure", "Bookify.Infrastructure\Bookify.Infrastructure.csproj", "{28948F22-5609-48BA-AB62-C523924E48EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Api", "Bookify.Api\Bookify.Api.csproj", "{4186B59C-8A67-4CF7-B063-7D5453807BFD}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{81DDED9D-158B-E303-5F62-77A2896D2A5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{153FC154-8D73-4805-B81D-378EEB66AFCD} = {95037B9C-1EAA-44C3-87F3-FEA216B82CD5}
-		{78E27FF1-D852-4194-BE38-84D006CE54CB} = {95037B9C-1EAA-44C3-87F3-FEA216B82CD5}
-		{28948F22-5609-48BA-AB62-C523924E48EE} = {95037B9C-1EAA-44C3-87F3-FEA216B82CD5}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{153FC154-8D73-4805-B81D-378EEB66AFCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -33,5 +35,22 @@ Global
 		{28948F22-5609-48BA-AB62-C523924E48EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28948F22-5609-48BA-AB62-C523924E48EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28948F22-5609-48BA-AB62-C523924E48EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4186B59C-8A67-4CF7-B063-7D5453807BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4186B59C-8A67-4CF7-B063-7D5453807BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4186B59C-8A67-4CF7-B063-7D5453807BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4186B59C-8A67-4CF7-B063-7D5453807BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{153FC154-8D73-4805-B81D-378EEB66AFCD} = {95037B9C-1EAA-44C3-87F3-FEA216B82CD5}
+		{78E27FF1-D852-4194-BE38-84D006CE54CB} = {95037B9C-1EAA-44C3-87F3-FEA216B82CD5}
+		{28948F22-5609-48BA-AB62-C523924E48EE} = {95037B9C-1EAA-44C3-87F3-FEA216B82CD5}
+		{4186B59C-8A67-4CF7-B063-7D5453807BFD} = {95037B9C-1EAA-44C3-87F3-FEA216B82CD5}
 	EndGlobalSection
 EndGlobal
