@@ -5,11 +5,13 @@ using Bookify.Domain.Abstractions;
 using Bookify.Domain.Apartments;
 using Bookify.Domain.Bookings;
 using Bookify.Domain.Users;
+using Bookify.Infrastructure.Authentication;
 using Bookify.Infrastructure.Clock;
 using Bookify.Infrastructure.Data;
 using Bookify.Infrastructure.Email;
 using Bookify.Infrastructure.Repositories;
 using Dapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -47,6 +49,12 @@ public static class DependencyInjection
             new SqlConnectionFactory(connectionString));
 
         SqlMapper.AddTypeHandler(new DateOnlyTypeHandler());
+
+        services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer();
+
+        services.Configure<AuthenticationOptions>(configuration.GetSection("Authentication"));
+        services.Configure<JwtBearerOptionsSetup>();
 
         return services;
     }
