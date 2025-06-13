@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projetos\\Bookify\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ADD5AF21-A432-4B22-BA2A-479AE85F98FC}|docker-compose.dcproj|c:\\projetos\\bookify\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{ADD5AF21-A432-4B22-BA2A-479AE85F98FC}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{998E97E0-48F5-4FBE-9535-CBD074D3226B}|test\\Bookify.Api.FunctionalTests\\Bookify.Api.FunctionalTests.csproj|c:\\projetos\\bookify\\test\\bookify.api.functionaltests\\infrastructure\\basefunctionaltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{998E97E0-48F5-4FBE-9535-CBD074D3226B}|test\\Bookify.Api.FunctionalTests\\Bookify.Api.FunctionalTests.csproj|solutionrelative:test\\bookify.api.functionaltests\\infrastructure\\basefunctionaltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{998E97E0-48F5-4FBE-9535-CBD074D3226B}|test\\Bookify.Api.FunctionalTests\\Bookify.Api.FunctionalTests.csproj|c:\\projetos\\bookify\\test\\bookify.api.functionaltests\\infrastructure\\functionaltestwebappfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{998E97E0-48F5-4FBE-9535-CBD074D3226B}|test\\Bookify.Api.FunctionalTests\\Bookify.Api.FunctionalTests.csproj|solutionrelative:test\\bookify.api.functionaltests\\infrastructure\\functionaltestwebappfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7F6A97A-7335-4568-80BB-0944F5A5E8FE}|test\\Bookify.Application.IntegrationTests\\Bookify.Application.IntegrationTests.csproj|c:\\projetos\\bookify\\test\\bookify.application.integrationtests\\apartments\\searchapartmentstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7F6A97A-7335-4568-80BB-0944F5A5E8FE}|test\\Bookify.Application.IntegrationTests\\Bookify.Application.IntegrationTests.csproj|solutionrelative:test\\bookify.application.integrationtests\\apartments\\searchapartmentstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6823C4B-1FD2-46B2-A167-AA0EB3F4FED3}|test\\Bookify.Application.UnitTests\\Bookify.Application.UnitTests.csproj|c:\\projetos\\bookify\\test\\bookify.application.unittests\\bookings\\reservebookingtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6823C4B-1FD2-46B2-A167-AA0EB3F4FED3}|test\\Bookify.Application.UnitTests\\Bookify.Application.UnitTests.csproj|solutionrelative:test\\bookify.application.unittests\\bookings\\reservebookingtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6823C4B-1FD2-46B2-A167-AA0EB3F4FED3}|test\\Bookify.Application.UnitTests\\Bookify.Application.UnitTests.csproj|c:\\projetos\\bookify\\test\\bookify.application.unittests\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6823C4B-1FD2-46B2-A167-AA0EB3F4FED3}|test\\Bookify.Application.UnitTests\\Bookify.Application.UnitTests.csproj|solutionrelative:test\\bookify.application.unittests\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6823C4B-1FD2-46B2-A167-AA0EB3F4FED3}|test\\Bookify.Application.UnitTests\\Bookify.Application.UnitTests.csproj|c:\\projetos\\bookify\\test\\bookify.application.unittests\\apartments\\apartmentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6823C4B-1FD2-46B2-A167-AA0EB3F4FED3}|test\\Bookify.Application.UnitTests\\Bookify.Application.UnitTests.csproj|solutionrelative:test\\bookify.application.unittests\\apartments\\apartmentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\projetos\\Bookify\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\projetos\\Bookify\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-06-13T20:33:05.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FunctionalTestWebAppFactory.cs",
+              "DocumentMoniker": "C:\\projetos\\Bookify\\test\\Bookify.Api.FunctionalTests\\Infrastructure\\FunctionalTestWebAppFactory.cs",
+              "RelativeDocumentMoniker": "test\\Bookify.Api.FunctionalTests\\Infrastructure\\FunctionalTestWebAppFactory.cs",
+              "ToolTip": "C:\\projetos\\Bookify\\test\\Bookify.Api.FunctionalTests\\Infrastructure\\FunctionalTestWebAppFactory.cs",
+              "RelativeToolTip": "test\\Bookify.Api.FunctionalTests\\Infrastructure\\FunctionalTestWebAppFactory.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAgwBYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:31:08.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseFunctionalTest.cs",
+              "DocumentMoniker": "C:\\projetos\\Bookify\\test\\Bookify.Api.FunctionalTests\\Infrastructure\\BaseFunctionalTest.cs",
+              "RelativeDocumentMoniker": "test\\Bookify.Api.FunctionalTests\\Infrastructure\\BaseFunctionalTest.cs",
+              "ToolTip": "C:\\projetos\\Bookify\\test\\Bookify.Api.FunctionalTests\\Infrastructure\\BaseFunctionalTest.cs",
+              "RelativeToolTip": "test\\Bookify.Api.FunctionalTests\\Infrastructure\\BaseFunctionalTest.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:31:07.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SearchApartmentsTests.cs",
+              "DocumentMoniker": "C:\\projetos\\Bookify\\test\\Bookify.Application.IntegrationTests\\Apartments\\SearchApartmentsTests.cs",
+              "RelativeDocumentMoniker": "test\\Bookify.Application.IntegrationTests\\Apartments\\SearchApartmentsTests.cs",
+              "ToolTip": "C:\\projetos\\Bookify\\test\\Bookify.Application.IntegrationTests\\Apartments\\SearchApartmentsTests.cs",
+              "RelativeToolTip": "test\\Bookify.Application.IntegrationTests\\Apartments\\SearchApartmentsTests.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:30:59.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReserveBookingTests.cs",
+              "DocumentMoniker": "C:\\projetos\\Bookify\\test\\Bookify.Application.UnitTests\\Bookings\\ReserveBookingTests.cs",
+              "RelativeDocumentMoniker": "test\\Bookify.Application.UnitTests\\Bookings\\ReserveBookingTests.cs",
+              "ToolTip": "C:\\projetos\\Bookify\\test\\Bookify.Application.UnitTests\\Bookings\\ReserveBookingTests.cs",
+              "RelativeToolTip": "test\\Bookify.Application.UnitTests\\Bookings\\ReserveBookingTests.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:29:33.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usings.cs",
+              "DocumentMoniker": "C:\\projetos\\Bookify\\test\\Bookify.Application.UnitTests\\Usings.cs",
+              "RelativeDocumentMoniker": "test\\Bookify.Application.UnitTests\\Usings.cs",
+              "ToolTip": "C:\\projetos\\Bookify\\test\\Bookify.Application.UnitTests\\Usings.cs",
+              "RelativeToolTip": "test\\Bookify.Application.UnitTests\\Usings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:29:30.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApartmentData.cs",
+              "DocumentMoniker": "C:\\projetos\\Bookify\\test\\Bookify.Application.UnitTests\\Apartments\\ApartmentData.cs",
+              "RelativeDocumentMoniker": "test\\Bookify.Application.UnitTests\\Apartments\\ApartmentData.cs",
+              "ToolTip": "C:\\projetos\\Bookify\\test\\Bookify.Application.UnitTests\\Apartments\\ApartmentData.cs",
+              "RelativeToolTip": "test\\Bookify.Application.UnitTests\\Apartments\\ApartmentData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:29:23.861Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

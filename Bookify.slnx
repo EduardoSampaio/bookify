@@ -1,9 +1,0 @@
-﻿<Solution>
-  <Folder Name="/src/">
-    <Project Path="Bookify.Api\Bookify.Api.csproj" Type="Classic C#" />
-    <Project Path="Bookify.Application\Bookify.Application.csproj" Type="Classic C#" />
-    <Project Path="Bookify.Domain\Bookify.Domain.csproj" Type="Classic C#" />
-    <Project Path="Bookify.Infrastructure\Bookify.Infrastructure.csproj" Type="Classic C#" />
-  </Folder>
-  <Folder Name="/test/" />
-</Solution>

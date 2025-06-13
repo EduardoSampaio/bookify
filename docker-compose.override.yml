@@ -1,53 +1,14 @@
+version: '3.4'
+
 services:
   bookify.api:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_HTTP_PORTS=8080
-      - ASPNETCORE_HTTPS_PORTS=8081
-      - ConnectionStrings__Default=Host=bookify-db;Port=5432;Database=bookify;Username=postgres;Password=postgres;
+      - ASPNETCORE_HTTP_PORTS=5000
+      - ASPNETCORE_HTTPS_PORTS=5001
     ports:
-      - "5000:8080"
-      - "5001:8081"
+      - 5000:5000
+      - 5001:5001
     volumes:
-      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
-      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
-    networks:
-      - bookify-net
-    depends_on:
-      - bookify-db
-
-  bookify-db:
-    container_name: Bookify.Db
-    restart: always
-    environment:
-      - POSTGRES_DB=bookify
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
-    volumes:
-      - ./.containers/database:/var/lib/postgresql/data
-    ports:
-      - 5432:5432
-    networks:
-      - bookify-net
-
-  bookify-idp:
-    image: quay.io/keycloak/keycloak:latest
-    container_name: Bookify.Identity
-    command: start-dev --import-realm
-    environment:
-      - KEYCLOAK_ADMIN=admin
-      - KEYCLOAK_ADMIN_PASSWORD=admin
-    volumes:
-      - ./.containers/identity:/opt/keycloak/data
-      - ./.files:/opt/keycloak/data/import
-    ports:
-      - 18080:8080
-    networks:
-      - bookify-net
-
-
-networks:
-  bookify-net:
-    driver: bridge

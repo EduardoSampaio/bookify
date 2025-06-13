@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Boq8D+TrrSM=",
+  "success": true,
+  "projectFilePath": "C:\\projetos\\Bookify\\src\\Bookify.Domain\\Bookify.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\edwar\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
